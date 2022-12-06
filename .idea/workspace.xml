@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f40b2e1c-b457-437c-b942-fd5c19a1df8d" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/HTML/HTML.html" afterDir="false" />
+    <list default="true" id="f40b2e1c-b457-437c-b942-fd5c19a1df8d" name="Changes" comment="Сделана задача HTML">
+      <change afterPath="$PROJECT_DIR$/ArraysWork/ArraysWork.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArraysWork/ArraysWork.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -10,9 +11,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -23,6 +28,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
   <component name="ProjectId" id="2HUUxk3BHeOJvzZCKnx9RXL3WRp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -32,11 +40,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="ArraysWork.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="ArraysWork.js" working-dir="$PROJECT_DIR$/ArraysWork">
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -46,6 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1668339423937</updated>
       <workItem from="1668339445738" duration="2817000" />
+      <workItem from="1670325834768" duration="8025000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1668341716251</created>
@@ -54,7 +66,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668341716251</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Создана задача HTML. Сделал первую страницу">
+      <created>1669734943820</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669734943820</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Сделана задача HTML">
+      <created>1669816297210</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669816297210</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -73,6 +99,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Создана задача HTML. Сделал первую страницу" />
+    <MESSAGE value="Сделана задача HTML" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделана задача HTML" />
   </component>
 </project>

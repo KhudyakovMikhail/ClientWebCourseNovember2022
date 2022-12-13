@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f40b2e1c-b457-437c-b942-fd5c19a1df8d" name="Changes" comment="Сделана задача HTML">
-      <change afterPath="$PROJECT_DIR$/ArraysWork/ArraysWork.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArraysWork/ArraysWork.js" afterDir="false" />
+    <list default="true" id="f40b2e1c-b457-437c-b942-fd5c19a1df8d" name="Changes" comment="Внес изменения в задачу HTML">
+      <change afterPath="$PROJECT_DIR$/CssForm/CssForm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CssForm/CssForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CssTable/CssTable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CssTable/CssTable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CssText/CssText.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CssText/CssText.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/HTML1.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/HTML1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/HTML2.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/HTML2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +25,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -40,9 +47,16 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "list.type.of.created.stylesheet": "CSS"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Михаил\IdeaProjects\ClientWebCourseNovember2022" />
+      <recent name="C:\Users\Михаил\IdeaProjects\ClientWebCourseNovember2022\.idea" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="ArraysWork.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="ArraysWork.js" working-dir="$PROJECT_DIR$/ArraysWork">
       <method v="2" />
@@ -57,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1668339423937</updated>
       <workItem from="1668339445738" duration="2817000" />
-      <workItem from="1670325834768" duration="8025000" />
+      <workItem from="1670325834768" duration="11804000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1668341716251</created>
@@ -80,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669816297210</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Сделана задача Работа с массивами">
+      <created>1670335917158</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670335917158</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +122,8 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Создана задача HTML. Сделал первую страницу" />
     <MESSAGE value="Сделана задача HTML" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделана задача HTML" />
+    <MESSAGE value="Сделана задача Работа с массивами" />
+    <MESSAGE value="Внес изменения в задачу HTML" />
+    <option name="LAST_COMMIT_MESSAGE" value="Внес изменения в задачу HTML" />
   </component>
 </project>

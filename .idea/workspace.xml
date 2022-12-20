@@ -4,13 +4,18 @@
     <list default="true" id="f40b2e1c-b457-437c-b942-fd5c19a1df8d" name="Changes" comment="Внес изменения в задачу HTML">
       <change afterPath="$PROJECT_DIR$/CssForm/CssForm.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CssForm/CssForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CssReset.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CssTable/CssTable.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CssTable/CssTable.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CssText/CssText.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CssText/CssText.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TemperatereConversion/TemperatureConversion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TemperatereConversion/TemperatureConversion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoList/TodoList.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoList/TodoList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoList/TodoList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/HTML1.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/HTML1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/HTML2.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/HTML2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArraysWork/ArraysWork.html" beforeDir="false" afterPath="$PROJECT_DIR$/ArraysWork/ArraysWork.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -47,12 +52,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
-    "WebServerToolWindowFactoryState": "false",
     "list.type.of.created.stylesheet": "CSS"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Михаил\IdeaProjects\ClientWebCourseNovember2022\TodoList" />
       <recent name="C:\Users\Михаил\IdeaProjects\ClientWebCourseNovember2022" />
       <recent name="C:\Users\Михаил\IdeaProjects\ClientWebCourseNovember2022\.idea" />
     </key>
@@ -71,7 +76,8 @@
       <option name="presentableId" value="Default" />
       <updated>1668339423937</updated>
       <workItem from="1668339445738" duration="2817000" />
-      <workItem from="1670325834768" duration="11804000" />
+      <workItem from="1670325834768" duration="18732000" />
+      <workItem from="1671457792531" duration="13523000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1668341716251</created>
@@ -101,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670335917158</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Внес изменения в задачу HTML">
+      <created>1670938521358</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670938521358</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

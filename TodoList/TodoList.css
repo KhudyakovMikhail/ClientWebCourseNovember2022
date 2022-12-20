@@ -1,0 +1,25 @@
+.form > * {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.errorMessage {
+    color: #f00;
+    display: none;
+}
+
+.invalid {
+    border-color: #f00;
+}
+
+.invalid ~ .errorMessage {
+    display: block;
+}
+
+.todoItemText {
+    padding-right: 5px;
+}
+
+.todoItem + .todoItem {
+    margin-top: 5px;
+}

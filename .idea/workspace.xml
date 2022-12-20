@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f40b2e1c-b457-437c-b942-fd5c19a1df8d" name="Changes" comment="Внес изменения в задачу HTML">
+    <list default="true" id="f40b2e1c-b457-437c-b942-fd5c19a1df8d" name="Changes" comment="workspace commit">
       <change afterPath="$PROJECT_DIR$/CssForm/CssForm.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CssForm/CssForm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CssReset.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CssTable/CssTable.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CssTable/CssTable.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CssText/CssText.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CssText/CssText.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TemperatereConversion/TemperatureConversion.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TemperatereConversion/TemperatureConversion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoList/TodoList.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoList/TodoList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoList/TodoList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ArraysWork/ArraysWork.html" beforeDir="false" afterPath="$PROJECT_DIR$/ArraysWork/ArraysWork.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/HTML1.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/HTML1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/HTML2.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/HTML2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +74,7 @@
       <updated>1668339423937</updated>
       <workItem from="1668339445738" duration="2817000" />
       <workItem from="1670325834768" duration="18732000" />
-      <workItem from="1671457792531" duration="13523000" />
+      <workItem from="1671457792531" duration="13875000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1668341716251</created>
@@ -114,7 +111,28 @@
       <option name="project" value="LOCAL" />
       <updated>1670938521358</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Создал задачу TodoList">
+      <created>1671547090789</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1671547090789</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Создал задачу cssReset">
+      <created>1671547119696</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1671547119696</updated>
+    </task>
+    <task id="LOCAL-00008" summary="workspace commit">
+      <created>1671547185070</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1671547185070</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +155,9 @@
     <MESSAGE value="Сделана задача HTML" />
     <MESSAGE value="Сделана задача Работа с массивами" />
     <MESSAGE value="Внес изменения в задачу HTML" />
-    <option name="LAST_COMMIT_MESSAGE" value="Внес изменения в задачу HTML" />
+    <MESSAGE value="Создал задачу TodoList" />
+    <MESSAGE value="Создал задачу cssReset" />
+    <MESSAGE value="workspace commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace commit" />
   </component>
 </project>

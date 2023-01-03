@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f40b2e1c-b457-437c-b942-fd5c19a1df8d" name="Changes" comment="Внес изменения в задачу HTML">
+    <list default="true" id="f40b2e1c-b457-437c-b942-fd5c19a1df8d" name="Changes" comment="Внес изменения в задачу ArraysWork">
       <change afterPath="$PROJECT_DIR$/CssForm/CssForm.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CssForm/CssForm.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CssTable/CssTable.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CssTable/CssTable.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CssText/CssText.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CssText/CssText.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectsWork/ObjectsWork.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectsWork/ObjectsWork.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TemperatereConversion/TemperatureConversion.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TemperatereConversion/TemperatureConversion.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArraysWork/ArraysWork.html" beforeDir="false" afterPath="$PROJECT_DIR$/ArraysWork/ArraysWork.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArraysWork/ArraysWork.js" beforeDir="false" afterPath="$PROJECT_DIR$/ArraysWork/ArraysWork.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +25,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -77,7 +77,7 @@
       <workItem from="1668339445738" duration="2817000" />
       <workItem from="1670325834768" duration="18732000" />
       <workItem from="1671457792531" duration="14840000" />
-      <workItem from="1672729100576" duration="3006000" />
+      <workItem from="1672729100576" duration="11395000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1668341716251</created>
@@ -142,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671547425544</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Внес изменения в задачу ArraysWork">
+      <created>1672732527577</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1672732527577</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +175,7 @@
     <MESSAGE value="Создал задачу cssReset" />
     <MESSAGE value="workspace commit" />
     <MESSAGE value="Внес изменения в задачу HTML" />
-    <option name="LAST_COMMIT_MESSAGE" value="Внес изменения в задачу HTML" />
+    <MESSAGE value="Внес изменения в задачу ArraysWork" />
+    <option name="LAST_COMMIT_MESSAGE" value="Внес изменения в задачу ArraysWork" />
   </component>
 </project>

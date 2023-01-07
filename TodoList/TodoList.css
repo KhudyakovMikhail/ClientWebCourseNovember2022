@@ -3,7 +3,7 @@
     vertical-align: top;
 }
 
-.errorMessage {
+.error-message {
     color: #f00;
     display: none;
 }
@@ -12,14 +12,14 @@
     border-color: #f00;
 }
 
-.invalid ~ .errorMessage {
+.invalid ~ .error-message {
     display: block;
 }
 
-.todoItemText {
+.todo-item-text {
     padding-right: 5px;
 }
 
-.todoItem + .todoItem {
+.todo-item + .todo-item {
     margin-top: 5px;
 }

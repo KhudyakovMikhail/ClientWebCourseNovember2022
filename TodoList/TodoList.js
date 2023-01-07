@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
-    var newTextInput = document.getElementById("textField");
-    var addButton = document.getElementById("addButton");
-    var todoList = document.getElementById("todoList");
+    var newTextInput = document.getElementById("text-field");
+    var addButton = document.getElementById("add-button");
+    var todoList = document.getElementById("todo-list");
     var form = document.getElementById("form");
 
     form.addEventListener("submit", function (e) {
@@ -18,22 +18,21 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         function setEditMode() {
-            todoItem.innerHTML = "<input class='editTodoItem' type='text'>\
-                <button class='saveButton' type='button'>Save</button>\
-                <button class='canselButton' type='button'>Cansel</button>\
-                <br>\
-                <div class=\"errorMessage\">Field is required</div>";
+            todoItem.innerHTML = "<input class='edit-todo-item' type='text'>\
+                <button class='save-button' type='button'>Save</button>\
+                <button class='cancel-button' type='button'>Cancel</button>\
+                <div class='error-message'>Field is required</div>";
 
-            todoItem.querySelector(".editTodoItem").value = newText;
+            todoItem.querySelector(".edit-todo-item").value = newText;
 
-            todoItem.querySelector(".canselButton").addEventListener("click", function () {
+            todoItem.querySelector(".cancel-button").addEventListener("click", function () {
                 setViewMode();
             });
 
-            todoItem.querySelector(".saveButton").addEventListener("click", function () {
-                var editedTextInput = todoItem.querySelector(".editTodoItem");
+            todoItem.querySelector(".save-button").addEventListener("click", function () {
+                var editedTextInput = todoItem.querySelector(".edit-todo-item");
                 var editedText = editedTextInput.value.trim();
-                todoItem.querySelector(".editTodoItem").classList.remove("invalid");
+                editedTextInput.classList.remove("invalid");
 
                 if (editedText.length === 0) {
                     editedTextInput.classList.add("invalid");
@@ -46,23 +45,23 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         function setViewMode() {
-            todoItem.innerHTML = "<span class='todoItemText'></span>\
-                <button class='editButton' type='button'>Edit</button>\
-                <button class='deleteButton' type='button'>Delete</button>";
+            todoItem.innerHTML = "<span class='todo-item-text'></span>\
+                <button class='edit-button' type='button'>Edit</button>\
+                <button class='delete-button' type='button'>Delete</button>";
 
-            todoItem.querySelector(".todoItemText").textContent = newText;
+            todoItem.querySelector(".todo-item-text").textContent = newText;
 
-            todoItem.querySelector(".deleteButton").addEventListener("click", function () {
+            todoItem.querySelector(".delete-button").addEventListener("click", function () {
                 todoItem.remove();
             });
 
-            todoItem.querySelector(".editButton").addEventListener("click", function () {
+            todoItem.querySelector(".edit-button").addEventListener("click", function () {
                 setEditMode();
             });
         }
 
         var todoItem = document.createElement("li");
-        todoItem.classList.add("todoItem");
+        todoItem.classList.add("todo-item");
 
         setViewMode();
 

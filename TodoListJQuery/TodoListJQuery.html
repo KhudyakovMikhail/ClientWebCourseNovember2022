@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TodoListJQuery</title>
+    <link rel="stylesheet" href="CssReset.css">
+    <link rel="stylesheet" href="TodoListJQuery.css">
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="TodoListJQuery.js" defer></script>
+</head>
+<body>
+<h1>Todo List jQuery</h1>
+
+<form id="form" class="form">
+    <label for="text-field">Enter text:</label>
+
+    <div>
+        <input type="text" id="text-field">
+        <div class="error-message">Field is required</div>
+    </div>
+
+    <button type="submit" id="add-button">Add</button>
+</form>
+
+<ul id="todo-list"></ul>
+</body>
+</html>

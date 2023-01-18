@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f40b2e1c-b457-437c-b942-fd5c19a1df8d" name="Changes" comment="Сделана задача ObjectsWork">
+    <list default="true" id="f40b2e1c-b457-437c-b942-fd5c19a1df8d" name="Changes" comment="gitignore">
       <change afterPath="$PROJECT_DIR$/CssForm/CssForm.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CssForm/CssForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CssForm/CssReset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CssTable/CssReset.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CssTable/CssTable.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CssTable/CssTable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CssText/CssReset.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CssText/CssText.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CssText/CssText.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TemperatereConversion/TemperatureConversion.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TemperatereConversion/TemperatureConversion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TemperatereConversion/CssReset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoList/CssReset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoListJQuery/CssReset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoListJQuery/TodoListJQuery.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoListJQuery/TodoListJQuery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoListJQuery/TodoListJQuery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoListJQuery/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoListJQuery/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoList/TodoList.css" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList/TodoList.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TemperatereConversion/TemperatureConversion.html" beforeDir="false" afterPath="$PROJECT_DIR$/TemperatereConversion/TemperatureConversion.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TodoList/TodoList.html" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList/TodoList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoList/TodoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList/TodoList.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +34,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -47,15 +55,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Михаил/IdeaProjects/AcademItSchoolJava&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Михаил/IdeaProjects/ClientWebCourseNovember2022/CssForm",
+    "list.type.of.created.stylesheet": "CSS",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Михаил\IdeaProjects\ClientWebCourseNovember2022\CssForm" />
+      <recent name="C:\Users\Михаил\IdeaProjects\ClientWebCourseNovember2022\CssTable" />
+      <recent name="C:\Users\Михаил\IdeaProjects\ClientWebCourseNovember2022\CssText" />
+      <recent name="C:\Users\Михаил\IdeaProjects\ClientWebCourseNovember2022\ObjectsWork" />
+      <recent name="C:\Users\Михаил\IdeaProjects\ClientWebCourseNovember2022\TemperatereConversion" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Михаил\IdeaProjects\ClientWebCourseNovember2022\TodoList" />
       <recent name="C:\Users\Михаил\IdeaProjects\ClientWebCourseNovember2022" />
@@ -79,7 +95,10 @@
       <workItem from="1670325834768" duration="18732000" />
       <workItem from="1671457792531" duration="14840000" />
       <workItem from="1672729100576" duration="11750000" />
-      <workItem from="1672753027317" duration="7822000" />
+      <workItem from="1672753027317" duration="11774000" />
+      <workItem from="1672914361587" duration="1197000" />
+      <workItem from="1673098007152" duration="5389000" />
+      <workItem from="1673863818953" duration="24118000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1668341716251</created>
@@ -158,7 +177,28 @@
       <option name="project" value="LOCAL" />
       <updated>1672748260709</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Сделана задача TemperatureConversion">
+      <created>1672834217928</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1672834217928</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Внесены изменения в задачу TodoList кроме пунктов 1, 2, 7">
+      <created>1673099464478</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1673099464478</updated>
+    </task>
+    <task id="LOCAL-00014" summary="gitignore">
+      <created>1673099481440</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1673099481440</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +226,9 @@
     <MESSAGE value="Внес изменения в задачу HTML" />
     <MESSAGE value="Внес изменения в задачу ArraysWork" />
     <MESSAGE value="Сделана задача ObjectsWork" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделана задача ObjectsWork" />
+    <MESSAGE value="Сделана задача TemperatureConversion" />
+    <MESSAGE value="Внесены изменения в задачу TodoList кроме пунктов 1, 2, 7" />
+    <MESSAGE value="gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
   </component>
 </project>

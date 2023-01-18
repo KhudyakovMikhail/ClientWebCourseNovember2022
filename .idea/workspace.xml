@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f40b2e1c-b457-437c-b942-fd5c19a1df8d" name="Changes" comment="gitignore">
+    <list default="true" id="f40b2e1c-b457-437c-b942-fd5c19a1df8d" name="Changes" comment="Добавил CssReset во все папки">
       <change afterPath="$PROJECT_DIR$/CssForm/CssForm.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CssForm/CssForm.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CssForm/CssReset.css" afterDir="false" />
@@ -11,17 +11,8 @@
       <change afterPath="$PROJECT_DIR$/CssText/CssReset.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CssText/CssText.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CssText/CssText.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TemperatereConversion/CssReset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoList/CssReset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoListJQuery/CssReset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoListJQuery/TodoListJQuery.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoListJQuery/TodoListJQuery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoListJQuery/TodoListJQuery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoListJQuery/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoListJQuery/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TemperatereConversion/TemperatureConversion.html" beforeDir="false" afterPath="$PROJECT_DIR$/TemperatereConversion/TemperatureConversion.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoList/TodoList.html" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList/TodoList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsWork/ObjectsWork.js" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsWork/ObjectsWork.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +89,7 @@
       <workItem from="1672753027317" duration="11774000" />
       <workItem from="1672914361587" duration="1197000" />
       <workItem from="1673098007152" duration="5389000" />
-      <workItem from="1673863818953" duration="24118000" />
+      <workItem from="1673863818953" duration="30095000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1668341716251</created>
@@ -198,7 +189,28 @@
       <option name="project" value="LOCAL" />
       <updated>1673099481440</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Создана задача TodoListJQuery">
+      <created>1674022005303</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1674022005303</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Добавил CssReset во все папки">
+      <created>1674022067901</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1674022067901</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Добавил CssReset во все папки">
+      <created>1674022089966</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1674022089966</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +241,8 @@
     <MESSAGE value="Сделана задача TemperatureConversion" />
     <MESSAGE value="Внесены изменения в задачу TodoList кроме пунктов 1, 2, 7" />
     <MESSAGE value="gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
+    <MESSAGE value="Создана задача TodoListJQuery" />
+    <MESSAGE value="Добавил CssReset во все папки" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил CssReset во все папки" />
   </component>
 </project>

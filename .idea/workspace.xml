@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f40b2e1c-b457-437c-b942-fd5c19a1df8d" name="Changes" comment="Добавил CssReset во все папки">
+    <list default="true" id="f40b2e1c-b457-437c-b942-fd5c19a1df8d" name="Changes" comment="defer для TodoListJQuery">
       <change afterPath="$PROJECT_DIR$/CssForm/CssForm.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CssForm/CssForm.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CssForm/CssReset.css" afterDir="false" />
@@ -11,8 +11,11 @@
       <change afterPath="$PROJECT_DIR$/CssText/CssReset.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CssText/CssText.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CssText/CssText.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Underscore/Underscore.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Underscore/Underscore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Underscore/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Underscore/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ObjectsWork/ObjectsWork.js" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsWork/ObjectsWork.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +28,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -50,7 +53,7 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Михаил/IdeaProjects/ClientWebCourseNovember2022/CssForm",
+    "last_opened_file_path": "C:/Users/Михаил/IdeaProjects/JavaOopCourseSummer2022",
     "list.type.of.created.stylesheet": "CSS",
     "nodejs_package_manager_path": "npm"
   }
@@ -89,7 +92,7 @@
       <workItem from="1672753027317" duration="11774000" />
       <workItem from="1672914361587" duration="1197000" />
       <workItem from="1673098007152" duration="5389000" />
-      <workItem from="1673863818953" duration="30095000" />
+      <workItem from="1673863818953" duration="42171000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1668341716251</created>
@@ -210,7 +213,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674022089966</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Внес изменения в задачу ObjectsWork">
+      <created>1674027891074</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1674027891074</updated>
+    </task>
+    <task id="LOCAL-00019" summary="defer для TodoListJQuery">
+      <created>1674031095300</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1674031095300</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,6 +260,8 @@
     <MESSAGE value="gitignore" />
     <MESSAGE value="Создана задача TodoListJQuery" />
     <MESSAGE value="Добавил CssReset во все папки" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил CssReset во все папки" />
+    <MESSAGE value="Внес изменения в задачу ObjectsWork" />
+    <MESSAGE value="defer для TodoListJQuery" />
+    <option name="LAST_COMMIT_MESSAGE" value="defer для TodoListJQuery" />
   </component>
 </project>

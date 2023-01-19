@@ -94,37 +94,34 @@
     console.log("Список стран:")
     console.log(countries);
 
-    function getMaxCitiesCountCountryArray(countriesArray) {
-        return countriesArray.filter(function (country) {
-            return country.cities.length === countries.map(function (country) {
-                return country.cities.length;
-            }).sort(function (number1, number2) {
-                return number2 - number1;
-            })[0];
+    function getMaxCitiesCountCountries(countries) {
+        var citiesMaximumCount = Math.max.apply(null, countries.map(function (country) {
+            return country.cities.length;
+        }));
+
+        return countries.filter(function (country) {
+            return country.cities.length === citiesMaximumCount;
         });
     }
 
-    var maxCitiesCountCountry = getMaxCitiesCountCountryArray(countries);
+    var maxCitiesCountCountries = getMaxCitiesCountCountries(countries);
     console.log("Список стран c максимальнам количеством городов:")
-    console.log(maxCitiesCountCountry);
+    console.log(maxCitiesCountCountries);
 
-    function getCountriesPopulationObject(countriesArray) {
+    function getCountriesPopulationObject(countries) {
         var countriesPopulation = {};
 
-        countriesArray.forEach(function (country) {
-            countriesPopulation[country.name] = country.cities.map(function (city) {
-                return city.population;
-            }).reduce(function (sum, population) {
-                return sum + population;
-            }, 0)
-        })
+        countries.forEach(function (country) {
+            countriesPopulation[country.name] = country.cities.reduce(function (sum, city) {
+                return sum + city.population;
+            }, 0);
+        });
 
         return countriesPopulation;
     }
 
-    var countriesPopulation = getCountriesPopulationObject(countries);
+    var countriesPopulationObject = getCountriesPopulationObject(countries);
 
     console.log("Объект: имя страны - суммарная численость")
-    console.log(countriesPopulation);
-})
-();
+    console.log(countriesPopulationObject);
+})();

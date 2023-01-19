@@ -92,13 +92,13 @@
     console.log("Список уникальных имен людей с возрастом от 20 до 30 включительно по убыванию:");
     console.log(descendingFrom20To30UniqPeopleNames);
 
-    function getPeoplesCountByNamesObject(people) {
-        var peoplesCountByNames = {};
+    function getPeopleCountByNamesObject(people) {
+        var peopleCountByNames = {};
 
         var uniqueNamesList = _.uniq(people);
 
         _.each(uniqueNamesList, function (person) {
-            peoplesCountByNames[person.name] = _.chain(people)
+            peopleCountByNames[person.name] = _.chain(people)
                 .filter(function (person1) {
                     return person1.name === person.name;
                 })
@@ -106,10 +106,10 @@
                 .value();
         });
 
-        return peoplesCountByNames;
+        return peopleCountByNames;
     }
 
-    var peoplesCountByNamesObject = getPeoplesCountByNamesObject(people);
+    var peopleCountByNamesObject = getPeopleCountByNamesObject(people);
     console.log("Объект, в котором ключи - имена людей, а значения количество людей с этим именем:");
-    console.log(peoplesCountByNamesObject);
+    console.log(peopleCountByNamesObject);
 })();

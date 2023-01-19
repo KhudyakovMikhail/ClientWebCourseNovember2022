@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f40b2e1c-b457-437c-b942-fd5c19a1df8d" name="Changes" comment="Внес изммнния в задачу ObjectsWork">
+    <list default="true" id="f40b2e1c-b457-437c-b942-fd5c19a1df8d" name="Changes" comment="Внес изммнния в задачу Underscore">
       <change afterPath="$PROJECT_DIR$/CssForm/CssForm.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CssForm/CssForm.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CssForm/CssReset.css" afterDir="false" />
@@ -90,7 +90,7 @@
       <workItem from="1672753027317" duration="11774000" />
       <workItem from="1672914361587" duration="1197000" />
       <workItem from="1673098007152" duration="5389000" />
-      <workItem from="1673863818953" duration="53177000" />
+      <workItem from="1673863818953" duration="56346000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1668341716251</created>
@@ -239,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674115543905</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Внес изммнния в задачу Underscore">
+      <created>1674118434445</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1674118434445</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,6 +283,7 @@
     <MESSAGE value="defer для TodoListJQuery" />
     <MESSAGE value="Сделал задачу Underscore" />
     <MESSAGE value="Внес изммнния в задачу ObjectsWork" />
-    <option name="LAST_COMMIT_MESSAGE" value="Внес изммнния в задачу ObjectsWork" />
+    <MESSAGE value="Внес изммнния в задачу Underscore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Внес изммнния в задачу Underscore" />
   </component>
 </project>

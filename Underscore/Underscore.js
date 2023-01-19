@@ -1,5 +1,5 @@
 (function () {
-    var peoples = [
+    var people = [
         {
             name: "Maksim",
             age: 30
@@ -29,7 +29,7 @@
             age: 39
         },
         {
-            name: "Daniil",
+            name: "Olga",
             age: 9
         },
         {
@@ -47,42 +47,37 @@
     ];
 
     console.log("Список людей:");
-    console.log(peoples);
+    console.log(people);
 
-    function getAverageAge(list) {
-        var agesSum = _.chain(list)
-            .pluck("age")
-            .reduce(function (sum, age) {
-                return sum + age;
+    function getAverageAge(people) {
+        var agesSum = _.chain(people)
+            .reduce(function (sum, person) {
+                return sum + person.age;
             }, 0)
             .value();
 
-        var peoplesCount = _.size(list);
-
-        return agesSum / peoplesCount;
+        return agesSum / people.length;
     }
 
-    var averageAge = getAverageAge(peoples);
+    var averageAge = getAverageAge(people);
     console.log("Средний возраст людей:");
     console.log(averageAge);
 
-    function getFrom20To30PeoplesList(list) {
-        return _.chain(list)
-            .filter(function (p) {
-                return p.age >= 20 && p.age <= 30;
+    function getFrom20To30PeoplesList(people) {
+        return _.chain(people)
+            .filter(function (person) {
+                return person.age >= 20 && person.age <= 30;
             })
-            .sort(function (p1, p2) {
-                return p1.age - p2.age;
-            })
+            .sortBy("age")
             .value();
     }
 
-    var from20To30PeoplesList = getFrom20To30PeoplesList(peoples);
+    var from20To30PeopleList = getFrom20To30PeoplesList(people);
     console.log("Список людей с возрастом от 20 до 30 включительно по возрастанию возраста:");
-    console.log(from20To30PeoplesList);
+    console.log(from20To30PeopleList);
 
-    function getDescendingFrom20To30UniqPeoplesNamesList(list) {
-        return _.chain(list)
+    function getDescendingFrom20To30UniquePeopleNames(people) {
+        return _.chain(people)
             .filter(function (p) {
                 return p.age >= 20 && p.age <= 30;
             })
@@ -93,30 +88,28 @@
             .value();
     }
 
-    var descendingFrom20To30UniqPeoplesNamesList = getDescendingFrom20To30UniqPeoplesNamesList(peoples);
+    var descendingFrom20To30UniqPeopleNames = getDescendingFrom20To30UniquePeopleNames(people);
     console.log("Список уникальных имен людей с возрастом от 20 до 30 включительно по убыванию:");
-    console.log(descendingFrom20To30UniqPeoplesNamesList);
+    console.log(descendingFrom20To30UniqPeopleNames);
 
-    function getPeoplesCountByNamesObject(list) {
+    function getPeoplesCountByNamesObject(people) {
         var peoplesCountByNames = {};
 
-        var uniqNamesList = _.uniq(list);
+        var uniqueNamesList = _.uniq(people);
 
-        _.each(uniqNamesList, function (human) {
-            peoplesCountByNames[human.name] = _.chain(list)
-                .filter(function (human1) {
-                    return human1.name === human.name;
+        _.each(uniqueNamesList, function (person) {
+            peoplesCountByNames[person.name] = _.chain(people)
+                .filter(function (person1) {
+                    return person1.name === person.name;
                 })
-                .reduce(function (sum) {
-                    return sum + 1;
-                }, 0)
+                .size()
                 .value();
-        })
+        });
 
         return peoplesCountByNames;
     }
 
-    var peoplesCountByNamesObject = getPeoplesCountByNamesObject(peoples);
+    var peoplesCountByNamesObject = getPeoplesCountByNamesObject(people);
     console.log("Объект, в котором ключи - имена людей, а значения количество людей с этим именем:");
     console.log(peoplesCountByNamesObject);
 })();

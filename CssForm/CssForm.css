@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin-top: 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    color: #676565;
+}
+
+.header {
+    font-weight: normal;
+    max-width: 845px;
+    padding: 0 22px;
+    margin: auto;
+}
+
+.form {
+    max-width: 845px;
+    margin: auto;
+    background-color: #FEEED6;
+}
+
+.form div {
+    margin-bottom: 20px;
+}
+
+.form div:first-child {
+    padding-top: 15px;
+}
+
+.form label{
+    font-weight: bold;
+    color: #676565;
+    margin: 0 0 10px;
+}
+
+.form input, .form textarea{
+    border: none;
+    padding: 10px 15px;
+    width: 100%;
+    color: #999;
+}
+
+.form textarea {
+    height: 130px;
+}
+
+.addition, .name > *, .telephone > *, .email > *, .commentary > * {
+    display: block;
+}
+
+.addition {
+    padding-bottom: 3px;
+}
+
+.name, .telephone, .email, .commentary, .addition {
+    margin: 10px 20px;
+}
+
+.button {
+    width: 176px;
+    margin: 0 15px 15px 649px;
+    font-family: inherit;
+    background-color: #378DB2;
+    border: 1px solid #A9C4C7;
+    padding: 9px 15px;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 16px;
+}

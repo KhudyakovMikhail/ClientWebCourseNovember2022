@@ -1,7 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
     var convertButton = document.getElementById("button");
     var inputTemperature = document.getElementById("input-temperature");
-    var clicked = false;
+    var container = document.getElementById("container");
+    var isClicked = false;
 
     convertButton.addEventListener("click", function () {
         var celsiusTemperature = inputTemperature.value.trim();
@@ -10,21 +11,21 @@ document.addEventListener("DOMContentLoaded", function () {
             return;
         }
 
-        if (clicked === true) {
+        if (isClicked) {
             document.querySelector(".kelvin-temperature").remove();
             document.querySelector(".fahrenheit-temperature").remove();
         }
 
         var kelvinTemperature = document.createElement("div");
         kelvinTemperature.classList.add("kelvin-temperature");
-        kelvinTemperature.textContent = "Temperature in Kelvin degrees:" + (celsiusTemperature * 1 + 273.15) + "°K";
-        document.body.appendChild(kelvinTemperature);
+        kelvinTemperature.textContent = "Temperature in Kelvin: " + (+celsiusTemperature + 273.15) + " K";
+        container.appendChild(kelvinTemperature);
 
         var fahrenheitTemperature = document.createElement("div");
         fahrenheitTemperature.classList.add("fahrenheit-temperature");
-        fahrenheitTemperature.textContent = "Temperature in Fahrenheit degrees:" + (celsiusTemperature * 1.8 + 32) + "°F";
-        document.body.appendChild(fahrenheitTemperature);
+        fahrenheitTemperature.textContent = "Temperature in Fahrenheit degrees: " + (celsiusTemperature * 1.8 + 32) + " °F";
+        container.appendChild(fahrenheitTemperature);
 
-        clicked = true;
+        isClicked = true;
     });
 });

@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f40b2e1c-b457-437c-b942-fd5c19a1df8d" name="Changes" comment="Сдеелал задачу CssText">
-      <change afterPath="$PROJECT_DIR$/CssForm/CssForm.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CssForm/CssForm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CssForm/CssReset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CssTable/CssReset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CssTable/CssTable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CssTable/CssTable.html" afterDir="false" />
+    <list default="true" id="f40b2e1c-b457-437c-b942-fd5c19a1df8d" name="Changes" comment="Сделал задачу CssForm">
+      <change afterPath="$PROJECT_DIR$/PhoneBookJQuery/PhoneBookJQuery.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PhoneBookJQuery/PhoneBookJQuery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PhoneBookJQuery/PhoneBookJQuery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PhoneBookJQuery/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PhoneBookJQuery/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TemperatureConversion/CssReset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TemperatureConversion/TemperatureConversion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TemperatureConversion/TemperatureConversion.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TemperatereConversion/CssReset.css" beforeDir="false" afterPath="$PROJECT_DIR$/PhoneBookJQuery/CssReset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TemperatereConversion/TemperatureConversion.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TemperatereConversion/TemperatureConversion.js" beforeDir="false" afterPath="$PROJECT_DIR$/TemperatureConversion/TemperatureConversion.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TodoList/TodoList.css" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList/TodoList.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Underscore/Underscore.js" beforeDir="false" afterPath="$PROJECT_DIR$/Underscore/Underscore.js" afterDir="false" />
     </list>
@@ -23,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -48,18 +53,18 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Михаил/IdeaProjects/ClientWebCourseNovember2022/CssForm",
+    "last_opened_file_path": "C:/Users/Михаил/IdeaProjects/ClientWebCourseNovember2022/PhoneBookJQuery",
     "list.type.of.created.stylesheet": "CSS",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Михаил\IdeaProjects\ClientWebCourseNovember2022\PhoneBookJQuery" />
       <recent name="C:\Users\Михаил\IdeaProjects\ClientWebCourseNovember2022\CssForm" />
       <recent name="C:\Users\Михаил\IdeaProjects\ClientWebCourseNovember2022\CssTable" />
       <recent name="C:\Users\Михаил\IdeaProjects\ClientWebCourseNovember2022\CssText" />
       <recent name="C:\Users\Михаил\IdeaProjects\ClientWebCourseNovember2022\TemperatereConversion" />
-      <recent name="C:\Users\Михаил\IdeaProjects\ClientWebCourseNovember2022\TodoList" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Михаил\IdeaProjects\ClientWebCourseNovember2022\TodoList" />
@@ -87,7 +92,7 @@
       <workItem from="1672753027317" duration="11774000" />
       <workItem from="1672914361587" duration="1197000" />
       <workItem from="1673098007152" duration="5389000" />
-      <workItem from="1673863818953" duration="81138000" />
+      <workItem from="1673863818953" duration="119124000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1668341716251</created>
@@ -257,7 +262,35 @@
       <option name="project" value="LOCAL" />
       <updated>1674455957952</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Сделал задачу CssTable">
+      <created>1674463651071</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1674463651071</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Сделал задачу CssTable">
+      <created>1674463667956</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1674463667956</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Сделал задачу CssForm">
+      <created>1674472527831</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1674472527831</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Сделал задачу CssForm">
+      <created>1674472547319</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1674472547319</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,6 +330,8 @@
     <MESSAGE value="Внес изммнния в задачу Underscore" />
     <MESSAGE value="замнил CssReset" />
     <MESSAGE value="Сдеелал задачу CssText" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сдеелал задачу CssText" />
+    <MESSAGE value="Сделал задачу CssTable" />
+    <MESSAGE value="Сделал задачу CssForm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделал задачу CssForm" />
   </component>
 </project>

@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+.container > * {
+    text-align: center;
+    max-width: 800px;
+    margin: 10px auto;
+}
+
+.converter * {
+    margin: 10px;
+}
+
+.converter label {
+    display: block;
+}
+
